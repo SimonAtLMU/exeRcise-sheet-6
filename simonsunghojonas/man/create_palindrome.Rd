@@ -2,20 +2,20 @@
 % Please edit documentation in R/simonsunghojonas.R
 \name{create_palindrome}
 \alias{create_palindrome}
-\title{palindrome of String value}
+\title{palindrome of String value.}
 \usage{
 create_palindrome(input_string)
 }
 \arguments{
-\item{input_string}{String value,}
+\item{input_string}{String value.}
 }
 \value{
-a String value , which is palindrome
+a String value , which is palindrome.
 }
 \description{
 This function takes an parameter representing the string
-for which you want to create a palindrome.
-and makes input String value as a palindrome
+for which you want to create a palindrome
+and makes input String value as a palindrome.
 }
 \examples{
 input <- "hello"

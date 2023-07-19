@@ -2,23 +2,23 @@
 % Please edit documentation in R/simonsunghojonas.R
 \name{swap_symbols}
 \alias{swap_symbols}
-\title{swaps the symbols of two input indices in a string,}
+\title{swaps the symbols of two input indices in a string.}
 \usage{
 swap_symbols(input_string, index1, index2)
 }
 \arguments{
-\item{input_string}{the string in which symbols need to be swapped}
+\item{input_string}{the string in which symbols need to be swapped.}
 
-\item{index1}{the first index}
+\item{index1}{the first index.}
 
-\item{index2}{the second index}
+\item{index2}{the second index.}
 }
 \value{
-string with the swapped symbols
+string with the swapped symbols.
 }
 \description{
 This function swaps the symbols of two input indices in a string and
-returns the string with the swapped symbols
+returns the string with the swapped symbols.
 }
 \examples{
 input <- "abcdef"
