@@ -1,8 +1,11 @@
 ---
 title: "Exercise #6"
 subtitle: "Fortgeschrittene Statistische Software für NF - SS 2022/23"
-author: "Simon Herrmann (11908690), Name (Martrikelnummer), ..."
+author: "Simon Herrmann (11908690), Sungho Park (12469817), Jonas Reinhard(12442176)"
 date: "`r Sys.Date()`"
+output:
+   distill::distill_article:
+    toc: true
 ---
 
 ## General Remarks
@@ -51,11 +54,12 @@ you for participating in the course!
 a)  Briefly describe in one sentences what your R package does and why
     you decided to choose this functionality. This is just intended to
     give us some context to better understand the package.
+    
+These functions provide convenient ways to manipulate and transform strings in R, allowing you to create palindromes and swap symbols at specific positions within a given string.
+
 b)  To make installation easier, your R package should be in a public
     repository on GitHub. Provide the URL to the GitHub repository
-    below:
-
-e.g. `https://github.com/<YOUR_GH_USERNAME>/<PACKAGE_REPOSITORY_NAME>`
+    below:`https://github.com/SimonAtLMU/exeRcise-sheet-6'
 
 c)  Your R package should be installable via
     `remotes::install_github()`. Before submitting your solution to this

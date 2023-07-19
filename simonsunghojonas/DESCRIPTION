@@ -2,8 +2,6 @@ Package: simonsunghojonas
 Title:  String Manipulation Functions: Creating Palindromes and Swapping Symbols
 Version: 1.0
 Authors@R: Sungho Park, Simon Herrmann ,Jonas Reihhard
-   
-   
 Description: These functions provide convenient ways to manipulate and transform 
     strings in R, allowing you to create palindromes and swap symbols at 
     specific positions within a given string.
