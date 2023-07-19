@@ -55,7 +55,9 @@ a)  Briefly describe in one sentences what your R package does and why
     you decided to choose this functionality. This is just intended to
     give us some context to better understand the package.
     
-These functions provide convenient ways to manipulate and transform strings in R, allowing you to create palindromes and swap symbols at specific positions within a given string.
+These functions provide convenient ways to manipulate and transform strings in 
+R, allowing you to create palindromes and swap symbols at specific positions 
+within a given string.
 
 b)  To make installation easier, your R package should be in a public
     repository on GitHub. Provide the URL to the GitHub repository
