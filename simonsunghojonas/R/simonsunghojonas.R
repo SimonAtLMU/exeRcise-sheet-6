@@ -50,6 +50,5 @@ swap_symbols <- function(input_string, index1, index2) {
   swapped_string <- paste(symbols, collapse = "")
   return(swapped_string)
 }
-devtools::use_vignette("introduction")
 
 
