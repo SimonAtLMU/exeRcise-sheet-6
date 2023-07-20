@@ -4,7 +4,7 @@ Title: String Manipulation Functions: Creating Palindromes, Swapping Symbols and
     Character Counting.
 Version: 1.0
 Authors@R: person("Sungho Park", email = "sungho.park@campus.lmu.de",role = c("aut", "cre"))
-           person("Jonas Reinhard" email = "jonasreinhard20@gmail.com", role = "aut")
+           person("Jonas Reinhard",email = "jonasreinhard20@gmail.com", role = "aut")
 Description: These functions provide convenient ways to manipulate and transform 
     strings in R, allowing you to create palindromes , swap symbols at 
     specific positions within a given string and counts the number of characters
