@@ -70,7 +70,7 @@ c)  Your R package should be installable via
     from GitHub. Provide the command below:
 
 ``` r
-remotes::install_github("<YOUR_GH_USERNAME>/<PACKAGE_REPOSITORY_NAME>")
+remotes::install_github("SimonAtLMU/exeRcise-sheet-6/simonsunghojonas")
 ```
 
 ### Functionality
