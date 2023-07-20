@@ -13,7 +13,7 @@ library(roxygen2)
 #' input <- "hello"
 #' palindrome <- create_palindrome(input)
 #' print(palindrome) # Output: "helloolleh"
-
+#' @export
 create_palindrome <- function(input_string) {
   reversed_string <- paste(rev(strsplit(input_string, "")[[1]]), collapse = "")
   palindrome <- paste(input_string, reversed_string, sep = "")
@@ -35,7 +35,7 @@ create_palindrome <- function(input_string) {
 #' index2 <- 5
 #' swapped_string <- swap_symbols(input, index1, index2)
 #' print(swapped_string)  # Output: "aecdbf"
-
+#' @export
 swap_symbols <- function(input_string, index1, index2) {
   if (index1 < 1 || index2 < 1 || index1 > nchar(input_string) || index2 > nchar(input_string)) {
     stop("Invalid indices. Please provide valid indices within the string length.")
@@ -64,7 +64,7 @@ swap_symbols <- function(input_string, index1, index2) {
 #' input <- "Hello, World!"
 #' result <- count_characters(input)
 #' print(result)  # Output: "13 characters (odd)"
-
+#' @export
 count_characters <- function(input_string) {
   num_characters <- nchar(input_string)
   is_even <- num_characters %% 2 == 0

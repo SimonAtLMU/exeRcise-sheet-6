@@ -55,10 +55,10 @@ a)  Briefly describe in one sentences what your R package does and why
     you decided to choose this functionality. This is just intended to
     give us some context to better understand the package.
     
-These functions provide convenient ways to manipulate and transform strings in 
-R, allowing you to create palindromes, swap symbols at specific positions 
-within a given string and counts the number of characters in a given string and
-determines whether it is an even or odd number.
+These functions provide convenient ways to manipulate and transform 
+strings in R, allowing you to create palindromes , swap symbols at 
+specific positions within a given string and counts the number of characters
+in a string and determines its parity.
 
 b)  To make installation easier, your R package should be in a public
     repository on GitHub. Provide the URL to the GitHub repository
