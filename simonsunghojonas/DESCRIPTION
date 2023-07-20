@@ -1,4 +1,5 @@
 Package: simonsunghojonas
+Maintainer: Sungho Park <sungho.park@campus.lmu.de>
 Title: String Manipulation Functions: Creating Palindromes, Swapping Symbols and 
     Character Counting.
 Version: 1.0
