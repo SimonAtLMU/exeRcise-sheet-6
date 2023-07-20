@@ -25,5 +25,5 @@ input <- "abcdef"
 index1 <- 2
 index2 <- 5
 swapped_string <- swap_symbols(input, index1, index2)
-print(swapped_string)  # Output: "aecbdf"
+print(swapped_string)  # Output: "aecdbf"
 }

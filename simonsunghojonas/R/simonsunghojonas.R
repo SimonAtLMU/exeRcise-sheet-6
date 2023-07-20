@@ -34,7 +34,7 @@ create_palindrome <- function(input_string) {
 #' index1 <- 2
 #' index2 <- 5
 #' swapped_string <- swap_symbols(input, index1, index2)
-#' print(swapped_string)  # Output: "aecbdf"
+#' print(swapped_string)  # Output: "aecdbf"
 
 swap_symbols <- function(input_string, index1, index2) {
   if (index1 < 1 || index2 < 1 || index1 > nchar(input_string) || index2 > nchar(input_string)) {
@@ -63,7 +63,7 @@ swap_symbols <- function(input_string, index1, index2) {
 #' @examples 
 #' input <- "Hello, World!"
 #' result <- count_characters(input)
-#' print(result)  # Output: "14 characters (even)"
+#' print(result)  # Output: "13 characters (odd)"
 
 count_characters <- function(input_string) {
   num_characters <- nchar(input_string)

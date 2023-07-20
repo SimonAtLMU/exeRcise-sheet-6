@@ -20,5 +20,5 @@ and returns a descriptive string indicating the count and its parity.
 \examples{
 input <- "Hello, World!"
 result <- count_characters(input)
-print(result)  # Output: "14 characters (even)"
+print(result)  # Output: "13 characters (odd)"
 }
